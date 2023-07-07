@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with tables</title>
+    <style>
+        table{
+            height: 200px;
+            width: 500px;
+        }
+        thead{
+            background-color: rgb(148, 154, 154);
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <caption>Teamwise top 5 players in IPL</caption>
+        <thead>
+            <tr>
+                <td>Team</td>
+                <td>Player 1</td>
+                <td>Player 2</td>
+                <td>Player 3</td>
+                <td>Player 4</td>
+                <td>Player 5</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="background-color: rgb(214, 241, 57);">CSK</td>
+                <td>MS Dhoni</td>
+                <td>S Raina</td>
+                <td>DJ Bravo</td>
+                <td>R Jadega</td>
+                <td>D Smith</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(219, 87, 87);">RCB</td>
+                <td>ABD Villiers</td>
+                <td>V Kohli</td>
+                <td>C Gayle</td>
+                <td>Y Chahal</td>
+                <td>D Steyn</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(220, 97, 52);">SRH</td>
+                <td>D Warner</td>
+                <td>B Kumar</td>
+                <td>S Dhawan</td>
+                <td>R Khan</td>
+                <td>K Williamson</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table border="1">
+        <caption>Table with rowspan & colspan</caption>
+        <thead>
+            <tr>
+                <td>Veg/Non-Veg</td>
+                <td>Specialities</td>
+                <td colspan="2">Where to try (City, State)</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Veg</td>
+                <td>Vadapav</td>
+                <td>Mumbai</td>
+                <td>MH</td>
+            </tr>
+            <tr>
+                <td>Misal Pav</td>
+                <td>Mumbai</td>
+                <td>MH</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Non-Veg</td>
+                <td>Chicken Biryani</td>
+                <td>Telangana</td>
+                <td>Hyd</td>
+            </tr>
+            <tr>
+                <td>Rogan Ghosh</td>
+                <td>Telangana</td>
+                <td>Hyd</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
